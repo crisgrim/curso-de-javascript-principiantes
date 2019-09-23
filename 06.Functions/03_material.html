@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Javascript: Functions and return</title>
+    </head>
+    <body>
+        <script type="text/javascript">
+            /*
+             * La idea de esta sección es que pruebes de una forma muy sencilla 
+             * las diferentes formas de definir funciones
+             * y ejecutarlas con un valor de retorno
+             */
+            function sayHello(name = 'world') {
+                return `Hello ${name}`
+            }
+
+            sayHello()
+
+            function sum(a = 0, b = 0) {
+                return a + b;
+            }
+
+            sum()
+
+            function multiply(a, b) {
+                return a * b;
+            }
+
+            multiply()
+        </script>
+    </body>
+</html>
