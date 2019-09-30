@@ -11,17 +11,21 @@
              * las diferentes formas de definir funciones
              * y ejecutarlas
              */
+            function sayHello(name = 'World') {
+                console.log('Hello ' + name)
+            }
+
+            sayHello()
+            sayHello('Cristina')
+
             function sum(a, b) {
                 console.log(a + b)
             }
 
-            const result1 = sum(2, 2)
-            const result2 = sum(5, 5)
-            const result3 = sum(20, 20)
-
-            console.log(result1)
-            console.log(result2)
-            console.log(result3)
+            sum(2, 5)
+            sum(10, 5)
+            sum(20, 50)
+            sum(3, 8)
         </script>
     </body>
 </html>

@@ -11,18 +11,13 @@
              * las diferentes formas de definir funciones
              * y ejecutarlas con un valor de retorno
              */
-            var whatever = 'whatever';
-            var sayHello = (name) => `Hello ${name} !`
-            var sayBye = (name) => { return `Bye ${name} !` }
+            var sayHello = (name) => `Hello ${name}`
+            var sayBye = (name) => {
+                return `Bye ${name}`
+            }
 
-            console.log(sayHello('Cris'))
+            console.log(sayHello('Cris')) 
             console.log(sayBye('Cris'))
-
-            var arrow = () => { return this.whatever }
-            function normal() { return this.whatever }
-
-            console.log(arrow())
-            console.log(normal())
         </script>
     </body>
 </html>

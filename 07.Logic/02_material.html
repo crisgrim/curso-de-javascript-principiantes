@@ -16,9 +16,11 @@
             const hotel = 50;
             const tour = 30;
             const total = flight + hotel + tour;
-            const budget = 300;
+            const budget = 100;
 
-            const result = budget >= total ? console.log('Sí, me voy de viaje') : console.log('No, tengo que seguir ahorrando')
+            const result = budget > total 
+                ? console.log('Sí, me voy de viaje')
+                : console.log('No, no me voy de viaje')
         </script>
     </body>
 </html>
